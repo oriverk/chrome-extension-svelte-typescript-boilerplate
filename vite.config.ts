@@ -20,9 +20,9 @@ export default defineConfig({
         launcher: resolve(srcDir, 'launcher/launcher.html'),
       },
       output: {
-        // chunkFileNames: "assets/js/[name].js",
-        // entryFileNames: "src/pages/[name]/index.js",
-        // assetFileNames: "assets/[ext]/[name].[ext]"
+        chunkFileNames: 'src/js/[name].js',
+        entryFileNames: 'src/js/[name].js',
+        assetFileNames: 'src/[ext]/[name].[ext]',
       },
     },
   },

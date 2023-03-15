@@ -7,7 +7,7 @@
     "url": "https://github.com/oriverk/chrome-extension-svelte-typescript-boilerplate.git"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "vite build",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "lint": "run-p lint:*",
