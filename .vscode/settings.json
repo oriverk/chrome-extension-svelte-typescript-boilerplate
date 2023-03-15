@@ -1,8 +1,14 @@
 {
-    "json.schemas": [
-        {
-            "fileMatch": ["manifest.json"],
-            "url": "https://json.schemastore.org/chrome-manifest.json"
-        }
-    ]
+  "json.schemas": [
+    {
+      "fileMatch": ["manifest.json"],
+      "url": "https://json.schemastore.org/chrome-manifest.json"
+    }
+  ],
+  "eslint.probe": ["javascript", "typescript", "html", "markdown", "eslint"],
+  "eslint.validate": ["svelete"],
+  "stylelint.validate": ["css", "postcss", "svelte"],
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  }
 }

@@ -2,13 +2,24 @@
 
 > Boilerplate for Chrome Extension Svelte Typescript project
 
+## procedure
+
+```bash
+npm create @eslint/config
+npm i -D eslint-plugin-svelte3
+npm create prettier
+npm i -D eslint config-prettier prettier-plugin-svelte eslint-plugin-import
+# modify .vscode/setting.json for vscode extension
+npm i -D stylelint stylelint-config-standard postcss-html stylelint-config-html stylelint-config-recess-order
+```
+
 ## Features
 
--   [Svelte](https://svelte.dev/)
--   [TypeScript](https://www.typescriptlang.org/)
--   [Vite](https://vitejs.dev/)
--   [CRXJS Vite Plugin](https://github.com/crxjs/chrome-extension-tools/blob/main/packages/vite-plugin/README.md)
--   [Chrome Extensions Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/)
+- [Svelte](https://svelte.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [CRXJS Vite Plugin](https://github.com/crxjs/chrome-extension-tools/blob/main/packages/vite-plugin/README.md)
+- [Chrome Extensions Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/)
 
 ## Development
 
