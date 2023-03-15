@@ -14,4 +14,16 @@ export default defineConfig({
       src: srcDir,
     },
   },
+  build: {
+    rollupOptions: {
+      input: {
+        launcher: resolve(srcDir, 'launcher/launcher.html'),
+      },
+      output: {
+        // chunkFileNames: "assets/js/[name].js",
+        // entryFileNames: "src/pages/[name]/index.js",
+        // assetFileNames: "assets/[ext]/[name].[ext]"
+      },
+    },
+  },
 })
