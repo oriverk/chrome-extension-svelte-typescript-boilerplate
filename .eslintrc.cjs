@@ -20,4 +20,7 @@ module.exports = {
   },
   plugins: ['svelte3', '@typescript-eslint'],
   rules: {},
+  globals: {
+    chrome: true,
+  },
 }
