@@ -38,6 +38,11 @@ npx husky add .husky/commit-msg 'npx commitlint --edit ${1}'
 - [Vite](https://vitejs.dev/)
 - [CRXJS Vite Plugin](https://github.com/crxjs/chrome-extension-tools/blob/main/packages/vite-plugin/README.md)
 - [Chrome Extensions Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/)
+- [ESLint - Pluggable JavaScript Linter](https://eslint.org/)
+- [Prettier · Opinionated Code Formatter](https://prettier.io/)
+- [Stylelint](https://stylelint.io/)
+- [Husky - Git hooks](https://typicode.github.io/husky/#/)
+- [commitlint - Lint commit messages](https://commitlint.js.org)
 
 ## Development
 
