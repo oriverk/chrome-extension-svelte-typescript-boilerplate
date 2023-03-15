@@ -13,6 +13,24 @@ npm i -D eslint config-prettier prettier-plugin-svelte eslint-plugin-import
 npm i -D stylelint stylelint-config-standard postcss-html stylelint-config-html stylelint-config-recess-order
 ```
 
+```bash
+npm i -D @commitlint/{config-conventional,cli}
+# touch .commitlintrc.json
+npm i -D husky
+npx husky install
+npx husky add .husky/commit-msg 'npm run lint'
+npx husky add .husky/commit-msg 'npx commitlint --edit ${1}'
+```
+
+- `feat:`：新機能
+- `fix:`：バグフィックス
+- `refactor:`：新機能でもバグフィックスでもないコード変更
+- `perf:`：パフォーマンス向上
+- `test:`：テストコードの追加・修正
+- `style:`：コードの意味に影響しない変更（空白、フォーマット、セミコロン）
+- `docs:`：ドキュメントだけの変更
+- `chore:`：雑用（ビルドプロセスの変更、ツールやライブラリの追加削除）
+
 ## Features
 
 - [Svelte](https://svelte.dev/)
